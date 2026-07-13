@@ -20,7 +20,7 @@ from feature_extraction import (
     ZScale,
     compute_cksaap,
 )
-from Networks_gated_fusion import (
+from Networks import (
     PTMDataset,
     CNN_BiLSTM_CKSAAP_ZScale,
     l2_penalty,
